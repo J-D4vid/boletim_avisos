@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+
+table{
+    margin-left: 15vw;
+    margin-top: 1vh;
+}
+tr{
+    display: block;
+    width: 70vw;
+    height: 9vh;
+    line-height: 9vh;
+    background-image: linear-gradient(to right bottom,rgb(7, 122, 154), #ffffff83  );
+    text-align: start;
+    border-radius: .45rem;
+    box-shadow: 3px 3px 9px black;
+    color: #fff;
+    transition: .5s;
+}
+
+tr:hover{
+    transition: .5s;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+td{
+    width: 20vw;
+    text-indent: 20px;
+}
+
+
+.btn{
+    position: absolute;
+    background-color: #ffffff00;
+    width: 67vw;
+    height: 8.2vh;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #ffffff00;
+}

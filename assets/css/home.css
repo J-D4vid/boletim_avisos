@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: system-ui;
+}
+
+body{
+    background-color: rgb(80, 72, 72);
+    
+}
+
+h1{
+    text-align: center;
+
+    padding-bottom: 30px;
+}
+
+li a{
+    text-decoration: none;
+}
+h3{
+    font-weight: lighter;
+}
+
+footer{
+    position: absolute;
+    bottom: 5%;
+    left: 79%;
+}
+
+img{
+    height: calc(100%);
+    border-radius: .85rem;
+}
+
+button{
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    height: 45px;
+    width: calc(60%);
+    border: none;
+    border-radius: 1rem;
+    transition: .5s;
+    background-color: #aeaeae7d;
+    margin-left: calc(20%);
+}
+.window{
+    
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    position:absolute;
+    top:10vh;
+    left: 10vw;    
+    overflow: hidden;
+    border-radius: .85rem;
+}
+
+.form_w{
+    padding-top: 25px;
+    text-align: center;
+    padding-left:10px ;
+    width: calc(35%);   
+    background-color: #fff;
+    box-shadow: -7px 3px 9px rgba(0, 0, 0, 0.418);
+}
+
+.img_w{
+    width: calc(65%);
+    height: calc(100%);
+}
+
+.b1:hover{
+    transition: .5s;
+    background-image: linear-gradient( to right bottom , rgba(11, 215, 242, 0.89), rgba(109, 10, 109, 0.907));
+    color: #fff;
+    font-size: 20px;
+    transform: scale(1.02);
+}
+
+.b2:hover{
+    transition: .5s;
+    background-image: linear-gradient( to right bottom , rgba(11, 215, 242, 0.693),rgb(109, 10, 109),  rgba(109, 10, 109, 0.539));
+    color: #fff;
+    font-size: 20px;
+    transform: scale(1.02);
+}
+
+.b3:hover{
+    transition: .5s;
+    background-image: linear-gradient( to right bottom , rgb(109, 10, 109), rgb(176, 13, 176),  rgba(251, 0, 251, 0.928));
+    color: #fff;
+    font-size: 20px;
+    transform: scale(1.02);
+}

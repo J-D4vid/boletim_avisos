@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(99, 99, 99);
+}
+h1{
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.img_form{
+    background-image: url(https://img.freepik.com/vetores-premium/linhas-gradientes-coloridas-abstratas-com-luz-azul-e-rosa-sobre-fundo-roxo_518299-100.jpg);
+    background-size: cover;
+    width:29vw ;
+    height: 67vh;
+    position: absolute;
+    top:15vh;
+    left: 35vw;
+    padding-left:5vw ;
+    padding-top:5vh ;
+    border-radius: .85rem;
+
+}
+
+.form{
+    display: block;
+    width: 24vw;
+    height:60vh;
+    background-color: rgba(206, 206, 206, 0.379);
+    border-radius: 1rem;
+    box-shadow: 3px 3px 9px black;
+}
+
+input{
+    margin-bottom: 20px;
+    border-radius: .45rem;
+    border: none;
+    width: 19.5vw;
+    height: 3vh;
+}   
+
+select{
+    width: 9.6vw;
+    height: 3vh;
+    border-radius: .45rem;
+    border: none;
+    
+    margin-bottom: 20px;
+    placeh
+}
+
+textarea{
+    border: none;
+    margin-bottom: 30px;
+    min-width:19.5vw;
+    border-radius: .45rem;
+}
+
+button{
+    width: 4.6vw;
+    height: 7vh;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 25px;
+    background-color: rgba(235, 228, 228, 0.535);
+    font-size: 30px;
+    line-height: 2vw;
+    transition: .5s;
+}
+
+button:hover{
+    background-image: linear-gradient(to right bottom, rgba(11, 215, 242, 0.592),rgb(109, 10, 109), rgba(251, 0, 251, 0.494));
+    cursor: pointer;
+    transition: .5s;
+}
